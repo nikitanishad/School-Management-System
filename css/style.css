@@ -155,9 +155,6 @@
 }
 
 .form label{
- /* position: absolute;
- top: 229px;
- left: 802px; */
  font-size: 1rem;
  color: #757575;
  cursor: text;
@@ -414,13 +411,13 @@
   justify-content: space-evenly;
 }
 .education{
-    width: 200px;
-    border: 1px solid #fff;
-    height: 160px;
-    padding: 25px;
-    border-radius: 2px;
-    color: #fff;
-    margin-bottom: 10px;
+  width: 250px;
+  border: 1px solid #fff;
+  height: 200px;
+  padding: 25px;
+  border-radius: 2px;
+  color: #fff;
+  margin-bottom: 10px;
 
 }
 
@@ -430,10 +427,6 @@
 hr{
   color: #f5d312;
 }
-.fas {
-  color: #f5d312;
-}
-
 .educ-card h2{
   text-align: center;
   margin: 0 0 10px 0;
@@ -442,4 +435,71 @@ hr{
   text-align: center;
   margin: 10px 0 0 0;
   font-size: 1.5rem;
+}
+
+/* footer section */
+
+.footer-section{
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/images/study.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+.userful{
+  width: 350px;
+  font-size: 1rem;
+}
+
+.userful a{
+  text-decoration: none;
+  margin-top: 8px;
+
+}
+.social-section{
+  width: 350px;
+}
+.review{
+  width: 350px;
+  margin-right: 100px;
+}
+.footer-section h5{
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+.review-text{
+  border: 1px solid #747373;
+  width: 70%;
+  padding: 5px;
+  border-radius: 4px;
+}
+.review-btn{
+  width: 70%;
+  height: 45px;
+  padding: 10px;
+  background-color: #4285f4;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.5);
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #212529;
+  color: #fff;
+  padding: 10px;
+}
+
+.footer p{
+  margin-top: 13px;
+  text-align: center;
+  font-size: 1.2rem;
 }
