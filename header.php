@@ -1,3 +1,6 @@
+
+ <?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,23 +13,3 @@
 <body>
 <section>
  <div class="container">
-     <!-- navbar -->
-    <nav class="navbar">
-      <a href="#" class="sms-item"><b>SMS</b></a>
-      <div class="list">
-        <div class="list-item1">
-         <ul>
-           <li><a href="#">Home</a></li>
-           <li><a href="#">About us</a></li>
-           <li><a href="#">Courses</a></li>
-           <li><a href="#">Events</a></li>
-           <li><a href="#">Home</a></li>
-         </ul>
-        </div>
-        <div class="list-item2">
-          <ul>
-            <li><i class="fa-solid fa-user"></i><a href="">Users login</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav> 
