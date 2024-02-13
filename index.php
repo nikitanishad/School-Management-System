@@ -1,74 +1,72 @@
 <?php include('header.php') ?>
 
        <!-- navbar -->
-       <nav class="navbar">
-      <a href="#" class="sms-item"><b>SMS</b></a>
-      <div class="list">
-        <div class="list-item1">
-         <ul>
-           <li><a href="#">Home</a></li>
-           <li><a href="#">About us</a></li>
-           <li><a href="#">Courses</a></li>
-           <li><a href="#">Events</a></li>
-           <li><a href="#">Home</a></li>
-         </ul>
-        </div>
-        <div class="list-item2">
-          <ul>
-            <li><i class="fa-solid fa-user"></i><a href="">Users login</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav> 
+<nav class="navbar">
+  <a href="#" class="sms-item"><b>SMS</b></a>
+  <div class="list">
+    <div class="list-item1">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </div>
+    <div class="list-item2">
+     <ul>
+       <li><i class="fa-solid fa-user"></i><a href="">Users login</a></li>
+     </ul>
+    </div>
+  </div>
+</nav> 
 
     <!--hero sections  -->
-     <div class="landing-page">
-       <div class="page">
-        <div class="row">
-          <div class="left-row">
-            <h1 class="heading">Addmission Open <br>for 
-              2024-2025</h1>
-            <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro aperiam sim
-            <br>
-            iste molestiae dignissimos odit voluptat
-            </p>
-            <button class="btn">
-            <a href="#">CALL TO  ACTION</a>
-            </button>
-          </div>
-          <div class="right-row">
-            <div class="inquery-form">
-               <div>
-                <h3>Inquiry Form</h3>
-                <form action="" method="post" class="form">
-                  <div>
-                    <input type="text" class="form-control" >
-                    <label for="">Your Name</label>
-                  </div>
-                  <div>
-                    <input type="email" class="form-control" >
-                    <label for="">Your Email</label>
-                  </div>
-                  <div>
-                    <input type="text" class="form-control">
-                    <label for="">Your Number</label>
-                  </div>
-                  <div>
-                  <textarea name="" id="" cols="20" rows="3" class="form-control"></textarea>
-                    <label for="">Your Query</label>
-                  </div> 
-                  <input type="submit" class="submit-btn">
-                </form>
-               </div>
+<div class="landing-page">
+  <div class="page">
+    <div class="row">
+      <div class="left-row">
+        <h1 class="heading">Addmission Open <br>for 
+          2024-2025</h1>
+        <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro aperiam sim
+        <br>
+        iste molestiae dignissimos odit voluptat
+        </p>
+        <button class="btn">
+        <a href="#">CALL TO  ACTION</a>
+        </button>
+      </div>
+      <div class="right-row">
+        <div class="inquery-form">
+          <h3>Inquiry Form</h3>
+          <form action="" method="post" class="form">
+            <div class="txt-felid">
+              <input type="text" class="form-control" >
+              <label for="">Your Name</label>
             </div>
-          </div>
+            <div class="txt-felid">
+              <input type="email" class="form-control" >
+              <label for="">Your Email</label>
+            </div>
+            <div class="txt-felid">
+              <input type="text" class="form-control">
+              <label for="">Your Number</label>
+            </div>
+            <div class="txt-felid">
+             <textarea name="" id="" cols="20" rows="3" class="form-control"></textarea>
+             <label for="">Your Query</label>
+            </div> 
+            <input type="submit" class="submit-btn">
+          </form>
         </div>
-       </div>
-     </div>
+      </div>
+    </div>
+  </div>
+</div>
        
        <!-- About sections -->
-     <div>
+    <div>
       <div class="about">
         <div class="about-info">
           <div class="information">
@@ -250,10 +248,10 @@
 
         <!-- footer -->
 
-        <footer class="back-image">
-  <div class="footer-section">
-    <div class="userful">
-      <div class="">
+      <footer class="back-image">
+       <div class="footer-section">
+         <div class="userful">
+         <div class="">
         <h5>Useful Links</h5>
 
         <ul class="fa-ul ml-4">
