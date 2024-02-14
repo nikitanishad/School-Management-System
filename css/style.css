@@ -637,41 +637,268 @@ form .text-felid{
 
 /* Dashboard css */
 
+.sidebar{
+  display: flex;
+}
+
+/* left sidebar  */
+.left-sidebar{
+  flex-basis: 20%;
+  background-color: #343a40;
+  position: sticky;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.student-panel{
+width: 100%;
+height: 50px;
+border-bottom: 1px solid #adadad;
+
+}
+.student-panel a{
+  color: #adadad;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.student-panel span{
+  display: block;
+  margin-top: -15px;
+}
+
+.left-dashboard {
+  padding: 0px 8px;
+  height: 100%;
+  width: 100%;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
+
+.nav-icon{
+  margin: 0 10px 0 9px;
+ font-size: 1.5rem;
+
+}
+
+.right{
+ margin-left:10px;
+ margin-top: 3px;
+ position: absolute;
+ top: 0.7rem;
+ right: 1rem;
+
+}
+
+.left-dashboard ul{
+  list-style: none;
+}
+
+.left-dashboard ul li{
+  width: 100%;
+  line-height: 1.5rem;
+  padding: 5px;
+  position: relative;
+}
+.left-dashboard ul a{
+  text-decoration: none;
+  color: #c2c7d0;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  padding: 5px;
+  margin-bottom: 0.2rem;
+ }
+ 
+ .left-dashboard ul li:hover {
+  background-color: rgba(255,255,255,.1);
+  color: #fff;
+  border-radius: 5px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* right side bar  */
+.right-sidebar{
+ flex-basis: 80%;
+ width: 100%;
+ height: 100vh;
+}
+
+/* admin navbar  */
 .admin-nav{
   display: flex;
-  /* justify-content: space-around; */
   width: 100%;
   height: 50px;
   padding-top: 15px;
   background-color: #fff;
   border-bottom: 1px solid #dee2e6;
   position: fixed;
-  z-index: 1037;
-  margin-left: 250px;
 }
 .admin-nav ul{
   display: flex;
   list-style: none;
   font-size: 1rem;
-  gap: 30px;
-
+  justify-content: space-between;
+  gap: 25px;
+  padding-left:5px ;
 }
-
 .admin-nav ul a{
   text-decoration: none;
   color:#757575;
 }
-
-.left-sidebar{
-  height: 100vh;
-  background-color: #212529;
-  flex-basis: 20%;
+.nav-link2{
+  margin-left: 740px;
 }
-.left-sidebar a{
+.fa-sign-out-alt{
+  margin-left: 5px;
+}
+/* content sections*/
+
+.content-header{
+  margin: 51px 0 0 0;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  color: #777;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.header-txt2 ol{
+  display: flex;
+  list-style: none;
+  gap: 5px;
+ padding: 5px;
+}
+
+.header-txt2 ol a{
   text-decoration: none;
+}
+
+.content{
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #f7ffff;
+}
+
+.content-row{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 22px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.content-info{
+  width: 231px;
+  height: 75px;
+  background-color:#fff;
+  box-shadow: 0 1px 8px #777; border-radius: 10px;
+  display: flex;
+  padding: 8px;
+  gap: 5px;
+}
+.cap{
+  border-radius: 0.25rem;
+  align-items: center;
+  display: flex;
+  font-size: 1.875rem;
+  justify-content: center;
+  text-align: center;
+  width: 65px;
   color: #fff;
-}
-.left-dashboard{
-
+  background-color: #2691d9;
 }
 
+.student{
+  margin-left: 10px;
+}
+
+.student-info{
+  padding: 7px;
+}
+.info-box{
+  color: #777;
+  margin-bottom: 4px;
+  display: block;
+}
+.info-box-number{
+   color: #000;
+   font-weight: 600;
+}
+
+.teacher-icons{
+  border-radius: 0.25rem;
+  align-items: center;
+  display: flex;
+  font-size: 1.875rem;
+  justify-content: center;
+  text-align: center;
+  width: 65px;
+  color: #fff;
+  background-color:#dc3545;
+}
+.teacher-info{
+  padding: 7px;
+}
+
+.course-icon{
+  border-radius: 0.25rem;
+  align-items: center;
+  display: flex;
+  font-size: 1.875rem;
+  justify-content: center;
+  text-align: center;
+  width: 65px;
+  color: #fff;
+  background-color: #28a745;
+}
+.course-info {
+  padding: 7px;
+}
+.questions-icon{
+  border-radius: 0.25rem;
+  align-items: center;
+  display: flex;
+  font-size: 1.875rem;
+  justify-content: center;
+  text-align: center;
+  width: 65px;
+  color: #fff;
+  background-color: #ffc107;
+}
+.inquiries-info{
+  padding: 7px;
+}
+
+
+.admin-footer{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 12px;
+  background-color:#fff;
+  font-size: 1.2rem;
+  box-shadow: 0 1px 6px #777;
+  z-index: 1038;
+}
+
+.admin-footer a{
+  text-decoration: none;
+  color: #2691d9;
+}
