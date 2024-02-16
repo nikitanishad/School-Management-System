@@ -5,8 +5,9 @@
     $pass= $_POST['password'];
 
       if($email == 'admin@example.com' && $pass == 'admin@sms'){
+         session_start();
          $_SESSION['login'] = true;
-         header('Location:../index.php');
+         header('Location:../admin/dashboard.php');
       }else{
          echo 'Invalid Credentials';
       }

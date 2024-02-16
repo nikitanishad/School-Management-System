@@ -8,17 +8,17 @@
          <i class="fa-solid fa-user"></i>
        </div>
        <form action="actions/login.php" method="POST">
-        <div class="text-felid">
+        <div class="text-field">
           <input type="text" name="email" required>
           <label for="">Your Email</label>
         </div>
-        <div class="text-felid">
+        <div class="text-field">
           <input type="password" name="password" id="password" required>
           <label for="">Your Password</label>
         </div>
        </form>
        <div class="login-btn">
-           <button><a href="#" name="login">Login</a></button>
+           <button name="login">Login</button>
         </div>
       </div>
     </div>

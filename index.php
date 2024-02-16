@@ -15,7 +15,22 @@
     </div>
     <div class="list-item2">
      <ul>
-       <li><i class="fa-solid fa-user"></i><a href="">Users login</a></li>
+       <li>
+         <!-- when the user is login then the show -->
+       <?php  if(isset($_SESSION['login']))  { ?>
+       <a href="#"><i class="fa-solid fa-user">Account</i></a>
+        <div class="use-actions">
+          <a href="#">Actions</a><br>
+          <a href="#">Another action</a><br>
+          <a href="logout.php">Logout</a>
+        </div>
+
+        <?php } else { ?>
+
+         <i class="fa-solid fa-user"></i><a href="login.php">Login</a>
+
+        <?php } ?>
+      </li>
      </ul>
     </div>
   </div>
@@ -41,19 +56,19 @@
         <div class="inquery-form">
           <h3>Inquiry Form</h3>
           <form action="" method="post" class="form">
-            <div class="txt-felid">
+            <div class="txt-field">
               <input type="text" class="form-control" >
               <label for="">Your Name</label>
             </div>
-            <div class="txt-felid">
+            <div class="txt-field">
               <input type="email" class="form-control" >
               <label for="">Your Email</label>
             </div>
-            <div class="txt-felid">
+            <div class="txt-field">
               <input type="text" class="form-control">
               <label for="">Your Number</label>
             </div>
-            <div class="txt-felid">
+            <div class="txt-field">
              <textarea name="" id="" cols="20" rows="3" class="form-control"></textarea>
              <label for="">Your Query</label>
             </div> 
