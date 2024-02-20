@@ -33,10 +33,10 @@
         <li class="list-icons">
           <a href="#"><i class="nav-icon fa-solid fa-gauge"></i>Dashboard</a>
          </li>
-         <li>
+         <li id="button">
           <a href="#"><i class="nav-icon fas fa-chalkboard"></i><p>Manage Accounts</p>
           <i class="fas fa-angle-left right arrow"></i></a>
-          <ul class="nav nav-treeview" style="display: block;">
+          <ul class="nav nav-treeview  message">
             <li class="nav-item">
               <a href="#" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
@@ -71,33 +71,33 @@
         </li>
         <li>
           <a href="#"><i class="nav-icon fas fa-chalkboard-teacher"></i><p>Manage Classes</p> <i class="fas fa-angle-left right arrow "></i></a>
-          <ul class="nav nav-treeview" style="display: block;">
+          <ul class="nav nav-treeview  message">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Sections</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="classes.php" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Classes</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="courses.php">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Courses</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Subjects</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Lessons</p>
               </a>
@@ -106,15 +106,15 @@
         </li>
         <li>
           <a href="#"><i class="nav-icon fas fa-chalkboard-teacher"></i><p>Manage Class Routines</p> <i class="fas fa-angle-left right arrow "></i></a>
-          <ul class="nav nav-treeview" style="display: block;">
+          <ul class="nav nav-treeview message">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#"">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Periods</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Time Table</p>
               </a>
@@ -123,27 +123,27 @@
         </li>
          <li>
            <a href="#"><i class="nav-icon fas fa-file-alt"></i><p>Manage Examinations</p><i class="fas fa-angle-left right arrow "></i> </a>
-           <ul class="nav nav-treeview" style="display: block;">
+           <ul class="nav nav-treeview message">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Examination Form</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Admit Card</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Paper Schedule</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Results</p>
               </a>
@@ -153,15 +153,15 @@
 
         <li>
           <a href="#"><i class="nav-icon fas fa-calendar-alt"></i><p>Manage Attendance</p><i class="fas fa-angle-left right arrow "></i></a>
-          <ul class="nav nav-treeview" style="display: block;">
+          <ul class="nav nav-treeview message">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Attendance</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Leave</p>
               </a>
@@ -171,9 +171,9 @@
          <li>
            <a href="#"><i class="nav-icon fas fa-money-check"></i><p>Manage Accounting </p>
            <i class="fas fa-angle-left right arrow "></i></a>
-           <ul class="nav nav-treeview" style="display: block;">
+           <ul class="nav nav-treeview message">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Student Fee Details</p>
               </a>
@@ -183,9 +183,9 @@
          <li>
            <a href="#"><i class="nav-icon fas fa-paste"></i><p>Study Materials</p>
            <i class="fas fa-angle-left right arrow "></i></a>
-           <ul class="nav nav-treeview" style="display: block;">
+           <ul class="nav nav-treeview message">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Study Materials</p>
               </a>
@@ -194,15 +194,15 @@
          </li>
          <li>
            <a href="#"><i class="nav-icon fas fa-calendar-check"></i><p>Manage Events</p><i class="fas fa-angle-left right arrow "></i></a>
-           <ul class="nav nav-treeview" style="display: block;">
+           <ul class="nav nav-treeview message">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Campus Functions</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Webinar/Seminar</p>
               </a>
@@ -212,26 +212,26 @@
          <li>
            <a href="../logout.php"><i class="nav-icon fas fa-users"></i><p>Communications</p>
            <i class="fas fa-angle-left right arrow "></i></a>
-      <ul class="nav nav-treeview" style="display: block;">
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Parent Meetings</p>
-              </a>
-            </li>
+           <ul class="nav nav-treeview message">
+             <li class="nav-item">
+               <a href="#">
+                 <i class="far fa-circle nav-icon"></i>
+                 <p>Parent Meetings</p>
+               </a>
+             </li>
            </ul>
          </li>
          <li>
            <a href="../logout.php"><i class="nav-icon fas fa-users"></i><p>Academy</p>
            <i class="fas fa-angle-left right arrow "></i></a>
-           <ul class="nav nav-treeview" style="display: block;">
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Basic Information</p>
-              </a>
-            </li>
-          </ul>
+           <ul class="nav nav-treeview message">
+              <li class="nav-item">
+                <a href="#">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Basic Information</p>
+                </a>
+              </li>
+           </ul>
          </li>
        </ul>
     </div>
@@ -248,7 +248,7 @@
      <div class="header-txt2">
        <ol>
          <li class=""><a href="#">Admin</a></li>
-         <li class="breadcrumb-item active">Dashboard</li>
+         <li class="">Dashboard</li>
        </ol>
      </div>
    </div>

@@ -7,7 +7,7 @@
         <div class="user-pic">
          <i class="fa-solid fa-user"></i>
        </div>
-       <form action="actions/login.php" method="POST">
+       <form action="actions/login.php" method="POST" id="myForm">
         <div class="text-field">
           <input type="text" name="email" required>
           <label for="">Your Email</label>
@@ -18,7 +18,7 @@
         </div>
        </form>
        <div class="login-btn">
-           <button name="login">Login</button>
+           <button name="login" onclick="myFunction()">Login</button>
         </div>
       </div>
     </div>

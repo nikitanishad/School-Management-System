@@ -1,9 +1,7 @@
 
  <?php session_start(); 
  
- echo $_SESSION['login'];
-
-echo "hekjhrvnm kj m;jkdfn;skjdf;hfdbk;fsfkbsdfjk;badhfn, mcn asdjk;JOPUWIEFHJENDFVMNDFBD;Kf,mn,dvmnvckljh snmdfhuerigqy0[4t8759t09[ipoklflakffjnmds,v .c ,sbndilweidi[0  3u9r9q3yuthjreghlkfpofi9eyhglkvfpobeqrugy84ryt  29837 290r8io2301-igrruiyger8g7y8r7yh   398y 9832y8933e982 2  3";
+//  echo $_SESSION['login'];
  ?>
 
 <!DOCTYPE html>

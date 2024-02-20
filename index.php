@@ -18,11 +18,13 @@
        <li>
          <!-- when the user is login then the show -->
        <?php  if(isset($_SESSION['login']))  { ?>
-       <a href="#"><i class="fa-solid fa-user">Account</i></a>
+       <a href="#"><i class="fa-solid fa-user"></i>Account<a>
         <div class="use-actions">
-          <a href="#">Actions</a><br>
-          <a href="#">Another action</a><br>
-          <a href="logout.php">Logout</a>
+          <ul>
+            <li><a href="#">Actions</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="logout.php">Logout</a></li>
+          </ul>
         </div>
 
         <?php } else { ?>
